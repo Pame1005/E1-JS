@@ -1,6 +1,6 @@
-let ingredientes = ["Harina", "Queso", "Levadura", "Aceite", "Agua", "jamón", "salsa", "Anchoas", "aceitunas", "cebolla"];
-let par = [];
-let impar = [];
+const ingredientes = ["Harina", "Queso", "Levadura", "Aceite", "Agua", "jamón", "salsa", "Anchoas", "aceitunas", "cebolla"];
+const par = [];
+const impar = [];
 
 function pizza(array) {
     for (let i = 0; i < array.length; i++) {
@@ -14,6 +14,7 @@ function pizza(array) {
     }
 }
 
-pizza(ingredientes);
-console.log(par);
-console.log(impar);
+pizza (ingredientes);
+
+console.log(`Las palabras pares son: ${par}`);
+console.log(`Las palabras impares son: ${impar}`);
